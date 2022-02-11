@@ -1,0 +1,178 @@
+/*
+author:gaurav;
+theme: food-order-website;
+version: 1.o;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+  
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.text-center{
+    text-align: center;
+}
+.footer{
+    background-color: #ff4752;
+    color: white;
+
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff4752;
+
+   
+}
+.menu ul li a:hover{
+    color: rgb(209, 39, 9);
+}
+.main-content{
+    
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.menu{
+    border: 1px solid black;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom:1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+
+}
+.btn-primary{
+    background-color: rgb(76, 76, 253);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border:1px solid rgb(76, 76, 253);
+
+}
+.btn-primary:hover{
+    
+    background-color: white;
+    color:blue;
+    border:1px solid blue;
+
+    
+}
+
+.btn-secondary{
+    background-color: rgb(107, 211, 97);
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border:1px solid rgb(107, 211, 97);
+
+}
+.btn-secondary:hover{
+    background-color: white;
+    color: rgb(3, 77, 3);
+    border:1px solid  rgb(3, 77, 3);
+    
+}
+
+.btn-danger{
+    background-color: rgb(240, 81, 81);
+    padding: 1%;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    border:1px solid rgb(240, 81, 81);
+
+}
+.btn-danger:hover{
+    
+    background-color: white;
+    color: red;
+    border:1px solid red;
+    
+    
+    
+}
+.tbl-30{
+    width:50%;
+}
+
+.success{
+    color:rgb(51, 88, 13);
+    font-weight: bold;
+}
+.error{
+    color:rgb(189, 55, 14);
+    font-weight: bold;
+}
+.login{
+
+    border:1px solid grey;
+    width: 20%;
+    margin:5% auto;
+    padding: 2%;
+    background: linear-gradient(90deg, #9290aa, #7ecc6b);
+    box-shadow: 0px 0px 24px #5C5696;
+}
+.btn-login{
+    background-color: rgb(76, 76, 253);
+    padding: 3% 7%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border:1px solid rgb(76, 76, 253);
+    border-radius: 5px;
+    
+
+}
+.btn-login:hover{
+    
+    background-color: white;
+    color:blue;
+    border:1px solid blue;
+
+    
+}
+input[type='text'],input[type='password'],input[type='number']{
+
+    border: none;
+    padding: 3% 7%;
+}
+.fa-sign-in{
+    color:rgb(14, 5, 77);
+   margin-left:44% ;
+
+}
